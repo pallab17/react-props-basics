@@ -91,9 +91,32 @@ amra ebare jokhun card component/fn take call debo
     </div>
   );
 
+  
+  and amra suppose css file e   ekta class dicchi 
+  .classname{
+    color : red; 
 
-  and amra suppose css file e 
-}
+  }
+  and ei class take add korte chaichi im the Card Component custom wala 
+  custom wala as properties guno user mane ami create korechi
+  so ei class take add korleo i.e.
+  <Card 
+  className ="className"
+      name="Beyonce"
+      img="https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg"
+      tell="+123 456 789"
+      mail="b@beyonce.com"
+    />
+    kono changes asbe na
+    as jokhun amra custom wala props r modhe kichu likhchi 
+    it will expect me to give something in a key : " value" pair(className ="className" eta key value pair ei lagche,
+    but etake amra use korte parbo i.e. className word take screen e show korate jodi amra Card fn e dot operator use kore kono ekta h1 h2 or h3 or p tag use kore ei classname word take insert koredi
+    but as a css class amra etake use korte parbona )
+     which is a part of this card object jetake  amra Card fn e dot operator use kore screen e render/show korate parbo
+     
+     we can add a css file only to HTML elements in this case i.e. div h1 p in the Card fn eiguno te we can add the css class to change the style of the webapp
+     
+
 
 
     
