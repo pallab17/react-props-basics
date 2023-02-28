@@ -69,6 +69,14 @@ amra ebare jokhun card component/fn take call debo
     />
     tokhun erom bhabe likhbo 
 
+    react props take object hisabe imagine kora ta easiest way to code 
+    object e key = "value " pair e jehetu kaj hoye tai 
+    ekhane object r naam === Card
+    name ,img, tell, mail === object r key 
+    bell,address of img, tell,mail === oject r value
+
+
+
     
     
     
