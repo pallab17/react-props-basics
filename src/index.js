@@ -77,6 +77,25 @@ amra ebare jokhun card component/fn take call debo
 
 
 
+    eibar card take jodi ekta object bhabi i.e. <Card/> inside render method
+    and eibar object take pass korchi Card function e 
+    function Card(props) {   // props r modhe card object r sob data ache 
+  return (
+    <div>
+      <h2>{props.name}</h2>     // {} curly braces use korchi as amra js likhchi inside html
+      // {props.name}  === .(dot) fn use korchi to get the value of the object/key as js object e key = " value"
+         pair hisabe thake object r bhetore jinis potro gulo
+      <img src={props.img} alt="avatar_img" />
+      <p>{props.tell}</p>
+      <p>{props.mail}</p>
+    </div>
+  );
+
+
+  and amra suppose css file e 
+}
+
+
     
     
     
